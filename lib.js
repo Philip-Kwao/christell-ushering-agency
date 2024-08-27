@@ -111,3 +111,23 @@ export const TestimonialData = [
         linkedInURL:""
     },
 ]
+
+// AboutStatementData
+
+export const StatementData = [
+    {
+        title: "Our Philosophy",
+        detail: "At Christell Ushering Agency, we believe that every event is an opportunity to create lasting memories and foster meaningful connections. Our philosophy is rooted in the idea that exceptional service is not just about fulfilling tasks but about exceeding expectations and adding a personal touch to every moment. We are committed to the principles of professionalism, attention to detail, and genuine care, which guide us in every interaction and every event we manage. Our team is dedicated to understanding the unique needs of each client and guest, ensuring that every experience with us is seamless, enjoyable, and memorable.",
+        icon:"/images/icons/philosophy.png"
+    },
+    {
+        title:"Mission Statement",
+        detail:"Our mission at Christell Ushering Agency is to provide unparalleled ushering and event management services that enhance the experience of every guest and elevate the atmosphere of every event. We are committed to delivering excellence in every detail, ensuring that our clients’ visions are brought to life with professionalism, warmth, and meticulous attention to detail. We aim to create events where every guest feels valued and every moment is flawlessly executed.",
+        icon:"/images/icons/mission.png"
+    },
+    {
+        title:"Vision Statement",
+        detail:"Our vision is to be the leading ushering agency recognized for setting the standard in event management excellence and customer satisfaction. We aspire to expand our reach and impact, becoming the preferred choice for clients seeking reliable, innovative, and compassionate event services. Through continuous growth, training, and adaptation, we strive to make a positive difference in the lives of our clients and their guests, creating unforgettable experiences that celebrate life's",
+        icon:"/images/icons/vision.png"
+    }
+]
