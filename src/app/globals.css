@@ -6,3 +6,7 @@
 .shape{
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 }
+
+.swiper-pagination-bullet-active{
+    color: rgb(20 184 166);
+}

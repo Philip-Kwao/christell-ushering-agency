@@ -62,3 +62,52 @@ export const serviceData = [
         detail:"Our wedding ushering service ensures a seamless and memorable experience for the couple and their guests. From guest reception to bridal party assistance and vendor coordination, our ushers manage every detail with professionalism and grace, respecting cultural and religious traditions."
     },
 ]
+
+// Testimonial Data 
+export const TestimonialData = [
+    {
+        image:"",
+        name:"Emily & Michael R.",
+        detail:"We were absolutely thrilled with the service provided by [Agency Name] at our wedding. The ushers were incredibly professional, helping to manage every aspect of the day with ease. They guided our guests with warmth and attentiveness, ensuring everyone felt welcomed and comfortable. Our bridal party was expertly coordinated, making the ceremony flow seamlessly. It was clear that the ushers were well-trained and experienced, allowing us to relax and enjoy our special day. We couldn’t have asked for a better team to support us!",
+        facebookURL:"",
+        xURL:"",
+        instagramURL:"",
+        linkedInURL:""
+    },
+    {
+        image:"",
+        name:"David K., Marketing Director, Tech Innovators Inc.",
+        detail:"We hired [Agency Name] for our product launch, and they exceeded all expectations. The team was professional and efficient, managing the guest list and ensuring VIPs and media representatives were well taken care of. They seamlessly coordinated the event flow, keeping everything on schedule and ensuring a polished experience for everyone. The feedback from our attendees was overwhelmingly positive, and we know it was due in large part to the exceptional service provided by the ushers. Thank you for making our launch a success!",
+        facebookURL:"",
+        xURL:"",
+        instagramURL:"",
+        linkedInURL:""
+    },
+    {
+        image:"",
+        name:"Ambassador Maria P.",
+        detail:"Our diplomatic event required a high level of formality and adherence to protocol, and [Agency Name] delivered flawlessly. The ushers were well-versed in the necessary etiquette, ensuring all dignitaries were seated appropriately and that the event proceeded without a hitch. Their coordination with our security team was seamless, which helped maintain a secure and respectful atmosphere throughout. We were extremely impressed with their professionalism and attention to detail. We look forward to working with them again in the future.",
+        facebookURL:"",
+        xURL:"",
+        instagramURL:"",
+        linkedInURL:""
+    },
+    {
+        image:"",
+        name:"James T.",
+        detail:"During a very difficult time for our family, [Agency Name] provided the support and care we needed at my father’s funeral. The ushers were compassionate and respectful, guiding guests with sensitivity and ensuring everything ran smoothly. They anticipated our needs and managed all the logistics, which allowed us to focus on remembering our loved one without worrying about the details. We are deeply grateful for their kindness and professionalism.",
+        facebookURL:"",
+        xURL:"",
+        instagramURL:"",
+        linkedInURL:""
+    },
+    {
+        image:"",
+        name:"Emily & Michael R.",
+        detail:"We were absolutely thrilled with the service provided by [Agency Name] at our wedding. The ushers were incredibly professional, helping to manage every aspect of the day with ease. They guided our guests with warmth and attentiveness, ensuring everyone felt welcomed and comfortable. Our bridal party was expertly coordinated, making the ceremony flow seamlessly. It was clear that the ushers were well-trained and experienced, allowing us to relax and enjoy our special day. We couldn’t have asked for a better team to support us!",
+        facebookURL:"",
+        xURL:"",
+        instagramURL:"",
+        linkedInURL:""
+    },
+]

@@ -1,7 +1,9 @@
+import CallToAction from "@/components/CallToAction";
 import AboutUs from "@/components/home/AboutUs";
 import Hero from "@/components/home/Hero";
 import OurService from "@/components/home/OurService";
-import Image from "next/image";
+import Testimonials from "@/components/Testimonials";
+
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <OurService />
+      <Testimonials />
+      <CallToAction />
     </main>
   );
 }

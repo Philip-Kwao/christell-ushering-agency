@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <div className="relative bg-teal-500 min-h-[70vh] ">
+    <div className="relative bg-teal-500 h-full lg:min-h-[70vh] ">
       <div className="flex flex-col lg:flex-row-reverse items-center justify-between py-4 max-w-[80vw] mx-auto">
         <motion.div className="max-w-sm"
         initial={{ opacity: 0, x:100 }}
@@ -28,7 +28,7 @@ const AboutUs = () => {
         animate={{ opacity: 1, x:0 }}
         transition={{ duration: 1 }} 
         >
-          <div className="">
+          <div className="flex items-center">
             <div className="bg-orange-500 p-1 rounded-tl-[300px]">
               <Image
                 className="rounded-tl-[300px]"
@@ -38,8 +38,7 @@ const AboutUs = () => {
                 height={350}
               />
             </div>
-          </div>
-          <div className="absolute top-28 -right-48 z-20">
+          <div className="block md:absolute top-28 -right-48 z-20">
             <div className="bg-white p-1 rounded-tr-[300px]">
               <Image
                 className="rounded-tr-[300px]"
@@ -49,6 +48,7 @@ const AboutUs = () => {
                 height={250}
               />
             </div>
+          </div>
           </div>
         </motion.div>
       </div>
