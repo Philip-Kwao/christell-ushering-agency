@@ -29,7 +29,7 @@ const Navbar = () => {
         {NavbarData.map((data, key) => (
           <li className="mx-4 " key={key}>
             <Link
-              href={data.name}
+              href={data.link}
               className="capitalize duration-300 ease-in-out text-teal-500 hover:text-orange-500"
             >
               {data.name}
@@ -52,7 +52,7 @@ const Navbar = () => {
           {NavbarData.map((data, key) => (
             <li className="mx-4 mb-4 tracking-wider" key={key}>
               <Link
-                href={data.name}
+                href={data.link}
                 className="capitalize duration-300 ease-in-out text-white hover:text-orange-500"
               >
                 {data.name}
