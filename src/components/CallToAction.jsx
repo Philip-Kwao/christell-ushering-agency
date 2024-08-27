@@ -4,7 +4,7 @@ import Socials from './Socials'
 
 const CallToAction = () => {
   return (
-    <div className="relative w-full bg-teal-500 min-h-[24rem]  mt-32 p-10 flex items-center justify-between  -z-20">
+    <div className="relative w-full bg-teal-500 min-h-[24rem]  mt-32 p-10 flex items-center justify-between  z-30">
       <div className="max-w-[100vh] mx-auto md:mx-0 bg-teal-500/50 rounded-xl p-5">
         <Socials />
         <h4 className="text-3xl font-extrabold mt-6 mb-3 text-white tracking-wide max-w-sm  lg:max-w-md">Dont hesitate to contact us</h4>
