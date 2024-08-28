@@ -4,8 +4,10 @@ import React, { useState } from "react";
 import { NavbarData } from "../../lib";
 import { FaGripLines } from "react-icons/fa6";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const path = usePathname()
   const [nav, setNav] = useState(false);
   const closeNav = () => {
     // alert("clicked")
@@ -30,7 +32,7 @@ const Navbar = () => {
           <li className="mx-4 " key={key}>
             <Link
               href={data.link}
-              className="capitalize duration-300 ease-in-out text-teal-500 hover:text-orange-500"
+              className={`capitalize duration-300 ease-in-out  hover:text-orange-500 ${path.startsWith(data.link) ? "text-orange-500":"text-teal-500"}`}
             >
               {data.name}
             </Link>
