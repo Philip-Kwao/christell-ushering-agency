@@ -257,4 +257,25 @@ export const GalleryData = [
       },
     ],
   },
+  // {
+  //   slug:"gallery-slide-images",
+  //   images:[
+  //     {image:"/images/gallery/christella_8.jpg"},
+  //     {image:"/images/gallery/christella_4.jpg"},
+  //     {image:"/images/gallery/christella_10.jpg"},
+  //     {image:"/images/gallery/christella_2.jpg"},
+  //     {image:"/images/gallery/christella_5.jpg"},
+  //   ]
+
+  // }
 ];
+
+export const GallerySlideData = [
+  
+    {image:"/images/gallery/christella_8.jpg"},
+    {image:"/images/gallery/christella_4.jpg"},
+    {image:"/images/gallery/christella_10.jpg"},
+    {image:"/images/gallery/christella_2.jpg"},
+    {image:"/images/gallery/christella_5.jpg"},
+  
+]
