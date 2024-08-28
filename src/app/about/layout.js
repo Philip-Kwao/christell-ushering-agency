@@ -43,14 +43,14 @@ export const metadata = {
   openGraph: {
     title: "About Us | Christell Ushering Agency",
     description: "Professional ushering services to elevate your event experience.",
-    url: "/",
+    url: "https://christell-ushering-agency.vercel.app/",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "About Us | Christell Ushering Agency",
     description: "Elevate your event experience with our professional ushering services.",
-    image: "/images/hero.png",
+    image: "https://christell-ushering-agency.vercel.app/images/hero.png",
   },};
 
 export default function RootLayout({ children }) {
