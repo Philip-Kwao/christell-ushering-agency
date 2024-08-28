@@ -37,18 +37,18 @@ const LocalBusinessStructuredData = () => (
 );
 
 export const metadata = {
-  title: "Christell Ushering Agency | Professional Ushering Services for All Events",
+  title: "Contact | Christell Ushering Agency | Professional Ushering Services for All Events",
   description: "Christell Ushering Agency offers professional ushering services to elevate your event experience, whether it's a wedding, corporate event, or private party. Discover excellence in every detail.",
   keywords: ["ushering agency", "event services", "wedding ushers", "corporate event ushers", "Christell Ushering Agency"],
   openGraph: {
-    title: "Christell Ushering Agency",
+    title: "Contact | Christell Ushering Agency",
     description: "Professional ushering services to elevate your event experience.",
     url: "/",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Christell Ushering Agency",
+    title: "Contact | Christell Ushering Agency",
     description: "Elevate your event experience with our professional ushering services.",
     image: "/images/hero.png",
   },};
