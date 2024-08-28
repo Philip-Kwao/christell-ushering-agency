@@ -46,8 +46,8 @@ const GallerySlide = () => {
         modules={[EffectCoverflow, Pagination, Autoplay, FreeMode]}
         className="mySwiper"
       >
-        {GallerySlideData.map((img) => (
-          <SwiperSlide>
+        {GallerySlideData.map((img, key) => (
+          <SwiperSlide key={key}>
             <Image src={img.image} width={300} height={300} alt="" />
           </SwiperSlide>
         ))}
