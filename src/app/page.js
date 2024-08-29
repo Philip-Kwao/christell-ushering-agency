@@ -7,7 +7,7 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <main className="min-h-screen xl:max-w-[80vw]">
+    <main className="min-h-screen xl:max-w-[80vw] mx-auto">
       <Hero />
       <AboutUs />
       <OurService />
