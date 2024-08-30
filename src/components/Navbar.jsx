@@ -14,7 +14,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <nav className="flex items-start md:items-center justify-between max-w-[90%] mx-auto my-4 relative">
+    <nav className="flex items-start md:items-center justify-between max-w-[90vw] xl:max-w-[80vw] mx-auto my-4 relative">
       <Link href={"/"} className="flex items-center justify-start">
         <Image
           src={"/images/logo.png"}

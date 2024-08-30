@@ -4,9 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   subsets: ["latin"],
-  weight:["100","200","300","400","500","600","700","800","900",]
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 const LocalBusinessStructuredData = () => (
@@ -18,18 +18,19 @@ const LocalBusinessStructuredData = () => (
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Christell Ushering Agency",
-          "description": "Professional ushering services for events including weddings, corporate functions, and private parties.",
-          "url": "/",
-          "address": {
+          name: "Christell Ushering Agency",
+          description:
+            "Professional ushering services for events including weddings, corporate functions, and private parties.",
+          url: "/",
+          address: {
             "@type": "PostalAddress",
-            "streetAddress": "123 Main St",
-            "addressLocality": "Accra",
-            "addressRegion": "Accra",
-            "postalCode": "233",
-            "addressCountry": "Ghana",
+            streetAddress: "123 Main St",
+            addressLocality: "Accra",
+            addressRegion: "Accra",
+            postalCode: "233",
+            addressCountry: "Ghana",
           },
-          "telephone": "+23355 5357220",
+          telephone: "+23355 5357220",
         }),
       }}
     />
@@ -37,30 +38,40 @@ const LocalBusinessStructuredData = () => (
 );
 
 export const metadata = {
-  title: "Christell Ushering Agency | Professional Ushering Services for All Events",
-  description: "Christell Ushering Agency offers professional ushering services to elevate your event experience, whether it's a wedding, corporate event, or private party. Discover excellence in every detail.",
-  keywords: ["ushering agency", "event services", "wedding ushers", "corporate event ushers", "Christell Ushering Agency"],
+  title:
+    "Christell Ushering Agency | Professional Ushering Services for All Events",
+  description:
+    "Christell Ushering Agency offers professional ushering services to elevate your event experience, whether it's a wedding, corporate event, or private party. Discover excellence in every detail.",
+  keywords: [
+    "ushering agency",
+    "event services",
+    "wedding ushers",
+    "corporate event ushers",
+    "Christell Ushering Agency",
+  ],
   openGraph: {
     title: "Christell Ushering Agency",
-    description: "Professional ushering services to elevate your event experience.",
+    description:
+      "Professional ushering services to elevate your event experience.",
     url: "https://christell-ushering-agency.vercel.app/",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Christell Ushering Agency",
-    description: "Elevate your event experience with our professional ushering services.",
+    description:
+      "Elevate your event experience with our professional ushering services.",
     image: "https://christell-ushering-agency.vercel.app/images/hero.png",
-  },};
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
       <body className={poppins.className}>
         <Navbar />
-        {children}
-        <Footer />
+          {children}
+          <Footer />
       </body>
     </html>
   );

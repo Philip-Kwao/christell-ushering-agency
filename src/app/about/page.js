@@ -6,7 +6,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <section className="">
+    <main className="">
       <h1 className="font-black text-3xl text-center ">
         About Christell Ushering Agency
       </h1>
@@ -14,7 +14,7 @@ const AboutPage = () => {
       <OurStory />
       <Statement />
       <CallToAction />
-    </section>
+    </main>
   );
 };
 

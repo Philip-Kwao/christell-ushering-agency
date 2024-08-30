@@ -53,15 +53,10 @@ export const metadata = {
     image: "https://christell-ushering-agency.vercel.app/images/hero.png",
   },};
 
-export default function RootLayout({ children }) {
+export default function ContactLayout({ children }) {
   return (
-    <html lang="en">
-      
-      <body className={poppins.className}>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <>
+      <div className="">{children}</div>
+    </>
   );
 }
